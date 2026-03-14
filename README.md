@@ -60,5 +60,43 @@
 ## Сборка
   
  Как правило сборка и наладка проблем не вызывает.  
- Хотя всё же проясним назначени перемычек.
+ Хотя всё же проясним назначени перемычек.  
+  
+ JP1, JP2 и JP3 замыкаются в случае установки VGA разъёма.  
+ При установки HDMI их замыкать не надо.  
+ Но все резисторы R24-31 заменяются на 270 Ом.  
+ Джампер J9 необходим для снятия питания с RP4040-Zero при перепрошивке.  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/J9.jpg)  
+  
+ JP4 замыкается в случае установки двух ПЗУ 2764  
 
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP4.jpg)  
+  
+ Перемычка JP5-JP9 запаиваются все.  
+ Они нужны для будущих расширений памяти  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP6.jpg)  
+  
+ Перемычки JP10 и JP11 запаиваются с левой стороны.  
+ Они перепаиваются только для расширения 256к на 41256(РУ7)  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP10.jpg)  
+  
+ Джампер J12 необходим для выбора прошивки БДИ  
+ в случае установки 27256 с двумя версиями TR-DOS.  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/J12.jpg)  
+  
+ Пин CAS1 необходим для расширения до 128к двумя линейками 4164(РУ5)  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/CAS1.jpg)  
+  
+## ПЗУ  
+  
+ Выбор ПЗУ описан [тут](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/tree/main/ROM)  
+
+## Авторы и благодарности  
+  
+ Alex Ekb за RGB2VGA конвертор  
+ Сообществу [Scorpion ZS & Ленинград](https://t.me/zs_scorpion) и моим друзьям.
