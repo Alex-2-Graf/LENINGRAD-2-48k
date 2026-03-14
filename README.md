@@ -1,5 +1,5 @@
 ## LENINGRAD-2-48k
-#Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.
+# Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.
 «Ленинград-2» — это бытовой персональный компьютер, совместимый с ZX Spectrum,  
 созданный в 1989 году как дальнейшее развитие популярной модели «Ленинград»  
 Усовершенствование легендарной первой модели, которая отличалась простотой схемы.  
