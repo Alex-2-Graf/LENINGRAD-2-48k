@@ -46,4 +46,14 @@
    
  Результат оправдал ожидания  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_1.00%2BKK.jpg)
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_1.00%2BKK.jpg)  
+
+ После обкатки и незначительных косметических доработок была выпущена ревизия [1.01](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.01.html) [Схема](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.01.pdf) [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Leningrad%202%2048k%202025%201.01%20GERBER.zip)  
+  
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.01.png)  
+
+ Ошибок выявлено не было, но были учтены некоторые пожелания.  
+ И свет увидела новая ревизия [1.02](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.html) [Схема](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.pdf) [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)  
+
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.02.png)
+
