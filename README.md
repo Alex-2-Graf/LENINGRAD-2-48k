@@ -37,7 +37,7 @@
  Основные отличия заключались в расположение на плате конвертера  
  от AlexEkb [ZX_RGBI2VGA-HDMI](https://github.com/AlexEkb4ever/ZX_RGBI2VGA-HDMI) и музыкального процессора AY-3-8910.  
  И мелкие доработки, связанные с дальнейшими расширениями.  
- А заодно родилась идея сделать переходник на Немо-bus и ZX-bus.  
+ А заодно родилась идея сделать переходник на Немо-bus и ZX-bus [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Back_L2_Nemo_Spec_Gerber.zip).  
 
 ![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/Back_L2_Nemo_Spec.jpg)  
 
@@ -55,5 +55,10 @@
  Ошибок выявлено не было, но были учтены некоторые пожелания.  
  И свет увидела новая ревизия [1.02](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.html) [Схема](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.pdf) [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)  
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.02.png)
+![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.02.png)  
+  
+## Сборка
+  
+ Как правило сборка и наладка проблем не вызывает.  
+ Хотя всё же проясним назначени перемычек.
 
