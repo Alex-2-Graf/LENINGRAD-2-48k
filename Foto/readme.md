@@ -21,7 +21,7 @@
 
 
 
-## Втораяая ревизия
+## Вторая ревизия
 
 ![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/PCB\_Rev1.02.png)
 
