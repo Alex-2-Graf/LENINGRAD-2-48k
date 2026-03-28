@@ -95,6 +95,10 @@ JP4 замыкается в случае установки двух ПЗУ 2764
   
 Выбор ПЗУ описан [тут](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/tree/main/ROM).  
 
+## Рекомендуемые аксессуары
+
+* [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
+* 
 ## Авторы и благодарности  
   
 Alex Ekb — за RGB2VGA-конвертер.  
