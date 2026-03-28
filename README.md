@@ -98,7 +98,8 @@ JP4 замыкается в случае установки двух ПЗУ 2764
 ## Рекомендуемые аксессуары
 
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
-* 
+* [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
+   
 ## Авторы и благодарности  
   
 Alex Ekb — за RGB2VGA-конвертер.  
