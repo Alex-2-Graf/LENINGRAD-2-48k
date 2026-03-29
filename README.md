@@ -99,6 +99,7 @@ JP4 замыкается в случае установки двух ПЗУ 2764
 
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
+* [Memory Expansions and AY/TS](https://github.com/Alex-2-Graf/Leningrad2-Upgrade-Kit)
    
 ## Авторы и благодарности  
   
