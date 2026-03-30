@@ -8,32 +8,32 @@
 
 ## Пробная версия
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2\_1.00.jpg)
+![](L2\_1.00.jpg)
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2\_1.00%2BKK.jpg)
+![](L2\_1.00%2BKK.jpg)
 
 
 ## Первая ревизия
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/PCB\_Rev1.01.png)
+![](PCB\_Rev1.01.png)
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2\_Rev1.01.png)
+![](L2\_Rev1.01.png)
 
 
 
 ## Вторая ревизия
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/PCB\_Rev1.02.png)
+![](PCB\_Rev1.02.png)
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2\_Rev1.02.png)
+![](L2\_Rev1.02.png)
 
 
 
 ## Переходник
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/Back\_L2\_Nemo\_Spec.png)
+![](Back\_L2\_Nemo\_Spec.png)
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/Back\_L2\_Nemo\_Spec.jpg)
+![](Back\_L2\_Nemo\_Spec.jpg)
 
 
 
