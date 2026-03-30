@@ -23,7 +23,7 @@
 
 Прадедушка  
 
-![Прадедушка](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/%D0%9F%D1%80%D0%B0%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0-1990.jpg)  
+![Прадедушка](Foto/%D0%9F%D1%80%D0%B0%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0-1990.jpg)  
 
 В скором времени он поселится в новом корпусе.  
 Ну а в 2025 году я решил переразвести его под новые реалии.  
@@ -31,30 +31,30 @@
 чтобы потом не резать и не МГТФить.  
 В результате на свет появился «Ленинград 2 2025».  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_1.00.jpg)
+![](Foto/L2_1.00.jpg)
 
 Основные отличия заключались в расположении на плате конвертера  
 от AlexEkb [ZX_RGBI2VGA-HDMI](https://github.com/AlexEkb4ever/ZX_RGBI2VGA-HDMI) и музыкального процессора AY-3-8910,  
 а также в мелких доработках, связанных с дальнейшими расширениями.  
-Заодно родилась идея сделать переходник на Немо-bus и ZX-bus [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Back_L2_Nemo_Spec_Gerber.zip).  
+Заодно родилась идея сделать переходник на Немо-bus и ZX-bus [Gerber](Gerber/Back_L2_Nemo_Spec_Gerber.zip).  
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/Back_L2_Nemo_Spec.jpg)  
+![](Foto/Back_L2_Nemo_Spec.jpg)  
 
 Что позволило подключать различные платы расширения.  
 Например, Космо Карту от Игоря [ZXKM](https://github.com/Igor-azx987sa/ZXKM).  
    
 Результат оправдал ожидания.  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_1.00%2BKK.jpg)  
+![](Foto/L2_1.00%2BKK.jpg)  
 
-После обкатки и незначительных косметических доработок была выпущена ревизия [1.01](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.01.html) [Схема](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.01.pdf) [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Leningrad%202%2048k%202025%201.01%20GERBER.zip)  
+После обкатки и незначительных косметических доработок была выпущена ревизия [1.01](Export/Leningrad%202%2048k%202025%201.01.html) [Схема](Export/Leningrad%202%2048k%202025%201.01.pdf) [Gerber](Gerber/Leningrad%202%2048k%202025%201.01%20GERBER.zip)  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.01.png)  
+![](Foto/L2_Rev1.01.png)  
 
 Ошибок выявлено не было, но были учтены некоторые пожелания.  
-И свет увидела новая ревизия [1.02](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.html) [Схема](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Export/Leningrad%202%2048k%202025%201.02.pdf) [Gerber](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)  
+И свет увидела новая ревизия [1.02](Export/Leningrad%202%2048k%202025%201.02.html) [Схема](Export/Leningrad%202%2048k%202025%201.02.pdf) [Gerber](Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)  
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Foto/L2_Rev1.02.png)  
+![](Foto/L2_Rev1.02.png)  
   
 ## Сборка
   
@@ -66,34 +66,34 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
 Но при этом все резисторы R24-31 заменяются на 270 Ом.  
 Джампер J9 необходим для снятия питания с RP2040-Zero при перепрошивке.  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/J9.jpg)  
+![](Jumpers/J9.jpg)  
   
 JP4 замыкается в случае установки двух ПЗУ 2764.  
 
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP4.jpg)  
+![](Jumpers/JP4.jpg)  
   
 Перемычки JP5-JP9 запаиваются все.  
 Они нужны для будущих расширений памяти.  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP6.jpg)  
+![](Jumpers/JP6.jpg)  
   
 Перемычки JP10 и JP11 запаиваются с левой стороны.  
 Они перепаиваются только для расширения до 256K на 41256 (РУ7).  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/JP10.jpg)  
+![](Jumpers/JP10.jpg)  
   
 Джампер J12 необходим для выбора прошивки БДИ  
 в случае установки 27256 с двумя версиями TR-DOS.  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/J12.jpg)  
+![](Jumpers/J12.jpg)  
   
 Пин CAS1 необходим для расширения до 128K двумя линейками 4164 (РУ5).  
   
-![](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/blob/main/Jumpers/CAS1.jpg)  
+![](Jumpers/CAS1.jpg)  
   
 ## ПЗУ  
   
-Выбор ПЗУ описан [тут](https://github.com/Alex-2-Graf/LENINGRAD-2-48k/tree/main/ROM).  
+Выбор ПЗУ описан [тут](ROM).  
 
 ## Рекомендуемые аксессуары
 
