@@ -106,6 +106,7 @@ JP4 замыкается в случае установки двух ПЗУ 2764
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
 * [Memory Expansions and AY/TS](https://github.com/Alex-2-Graf/Leningrad2-Upgrade-Kit)
 * [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
+* [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
    
 ## Авторы и благодарности  
   
