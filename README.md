@@ -1,84 +1,116 @@
-# LENINGRAD-2-48k
-
-## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.
-
-> [English](README.md) | [Русский](README.ru.md)
-
-"Leningrad-2" is a home personal computer compatible with the ZX Spectrum, created in 1989 as an evolution of the popular "Leningrad" model. It is an improved version of the legendary first model, which was highly regarded for its simple circuitry. 
-
-"Leningrad-2" retained this elegant and simple design, making it easy to assemble and tune. The computer is powered by a Z80 processor and features 48 KB of RAM implemented on Soviet KR565RU5 (КР565РУ5) chips.
-
-Along with its predecessor, "Leningrad-2" became one of the most widespread ZX Spectrum clones in the former USSR, as hobbyists could easily build it at home using widely available radio components. A key advantage of "Leningrad-2" over other contemporary clones was its dedicated expansion slot.
-
-***
-
-### Project History
-
-After building a "Radio 86RK" and an Odessa-designed clone (sadly, the schematics for the latter are lost), I decided to assemble the "Leningrad-2". Just a month later, I expanded it to 128K and added a Beta Disk Interface (BDI). 
-
-To afford two 5.25-inch floppy drives, I spent the summer of 1990 working with a student construction brigade. This computer served me faithfully throughout my entire university years. It handled countless complex calculations, traveled to many places — including the Chernobyl Nuclear Power Plant (ChNPP) — and remains fully functional to this day.
+# LENINGRAD-2-48k  
+## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.  
   
-![](Foto/%D0%9F%D1%80%D0%B0%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0-1990.jpg)  
+> [English](README.en.md) | [Русский](README.md)  
   
-The original "great-grandfather" board will soon be housed in a brand-new case.
-
-### Leningrad-2 2025 Revision
-
-In 2025, I decided to redesign the PCB to match modern realities. I wanted to build in expansion capabilities right from the start, avoiding any future track-cutting or messy wire-wrap modifications (MGTF wire). 
+«Ленинград-2» — это бытовой персональный компьютер, совместимый с ZX Spectrum,  
+созданный в 1989 году как дальнейшее развитие популярной модели «Ленинград».  
+Это усовершенствованная версия легендарной первой модели, которая отличалась простотой схемы.  
+«Ленинград-2» сохранил эту простоту схемотехники, лёгкость сборки и настройки.  
+Компьютер построен на базе процессора Z80. Имеет 48 Кб оперативной памяти,  
+реализованной на микросхемах типа РУ5.  
+«Ленинград-2» (наряду с первой версией) стал одним из самых массовых клонов ZX Spectrum  
+в бывшем СССР благодаря возможности собрать его самостоятельно из доступных радиодеталей.  
+  
+Преимуществом «Ленинграда-2» по сравнению с другими клонами того времени  
+было наличие разъёма для расширения.  
+И после «Радио 86РК» и одесского клона (к большому сожалению, схемы не сохранились)  
+было принято решение собрать «Ленинград-2».  
+А буквально через месяц — и расширить его до 128K, и прикрутить БДИ.  
+Правда, летом 1990 года пришлось поехать в стройотряд и заработать на два дисковода 5,25.  
+И этот компьютер проработал верой и правдой всё время учёбы в университете.  
+Каких только расчётов он не видел.  
+И где только не побывал. Даже на ЧАЭС.  
+Он в рабочем состоянии до сих пор.  
+  
+Прадедушка  
+  
+![Прадедушка](Foto/%D0%9F%D1%80%D0%B0%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0-1990.jpg)  
+  
+В скором времени он поселится в новом корпусе.  
+Ну а в 2025 году я решил переразвести его под новые реалии.  
+Ну и сразу заложить возможность расширения,  
+чтобы потом не резать и не МГТФить.  
+В результате на свет появился «Ленинград 2 2025».  
   
 ![](Foto/L2_1.00.jpg)  
   
-
-As a result, the **"Leningrad 2 2025"** was born. The main upgrades include onboard integration of:
-*   The **ZX_RGBI2VGA-HDMI** converter by AlexEkb.
-*   The **AY-3-8910** sound chip.
-*   Minor improvements for future expansions.
-
-Alongside this, I designed a Gerber adapter for Nemo-bus and ZX-bus. This allows the connection of various expansion cards, such as the Cosmo Card by Igor ZXKM.  
+Основные отличия заключались в расположении на плате конвертера  
+от AlexEkb [ZX_RGBI2VGA-HDMI](https://github.com/AlexEkb4ever/ZX_RGBI2VGA-HDMI) и музыкального процессора AY-3-8910,  
+а также в мелких доработках, связанных с дальнейшими расширениями.  
+Заодно родилась идея сделать переходник на Немо-bus и ZX-bus [Gerber](Gerber/Back_L2_Nemo_Spec_Gerber.zip).  
   
 ![](Foto/Back_L2_Nemo_Spec.jpg)  
   
+Что позволило подключать различные платы расширения.  
+Например, Космо Карту от Игоря [ZXKM](https://github.com/Igor-azx987sa/ZXKM).  
+   
+Результат оправдал ожидания.  
+  
 ![](Foto/L2_1.00%2BKK.jpg)  
   
-The results completely met expectations. Following real-world testing and minor cosmetic tweaks, I released a few revisions:
-
-*   **Revision 1.01** ([Schematics](Export/Leningrad%202%2048k%202025%201.01.pdf) / [Gerber](Gerber/Leningrad%202%2048k%202025%201.01%20GERBER.zip)) — *Initial release. No bugs found, but updated based on community feedback.*
-*   **Revision 1.02** ([Schematics](Export/Leningrad%202%2048k%202025%201.02.pdf) / [Gerber](Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)) — *The latest current revision.*
-
----
-
-## Assembly & Jumper Settings
-
-Generally, assembly and tuning are straightforward. Here is the configuration guide for the onboard jumpers:
-
-*   **JP1, JP2, JP3**: Short these if you are installing a VGA connector. Leave them open for HDMI. If using HDMI, make sure all resistors `R24-31` are replaced with 270 Ohm.
-*   **J9**: Used to disconnect power from the RP2040-Zero board during firmware flashing.
-*   **JP4**: Short this if you are installing two 2764 ROMs.
-*   **JP5–JP9**: Solder all of these. They are required for future memory expansions.
-*   **JP10, JP11**: Solder on the left side. You only need to resolder them if you expand the RAM to 256K using 41256 (РУ7) chips.
-*   **J12**: Used to select the BDI firmware if you install a 27256 ROM containing two versions of TR-DOS.
-*   **CAS1 Pin**: Required for expanding the memory to 128K using two rows of 4164 (РУ5) chips.
-
----
-
-## ROM & Video Configuration
-
-*   **ROM**: Detailed ROM selection guide can be found [here](ROM).
-*   **VGA**: RGB2VGA converter setup instructions are available [here](VGA).
-
----
-
-## Recommended Accessories
-
+После обкатки и незначительных косметических доработок была выпущена ревизия [1.01](Export/Leningrad%202%2048k%202025%201.01.html) [Схема](Export/Leningrad%202%2048k%202025%201.01.pdf) [Gerber](Gerber/Leningrad%202%2048k%202025%201.01%20GERBER.zip)  
+  
+![](Foto/L2_Rev1.01.png)  
+  
+Ошибок выявлено не было, но были учтены некоторые пожелания.  
+  
+И свет увидела новая ревизия [1.02](Export/Leningrad%202%2048k%202025%201.02.html) [Схема](Export/Leningrad%202%2048k%202025%201.02.pdf) [Gerber](Gerber/Leningrad%202%2048k%202025%201.02%20GERBER.zip)  
+  
+![](Foto/L2_Rev1.02.png)  
+  
+## Сборка  
+  
+Как правило, сборка и наладка проблем не вызывают.  
+Хотя всё же проясним назначение перемычек.  
+  
+JP1, JP2 и JP3 замыкаются в случае установки VGA-разъёма.  
+При установке HDMI их замыкать не надо.  
+Но при этом все резисторы R24-31 заменяются на 270 Ом.  
+Джампер J9 необходим для снятия питания с RP2040-Zero при перепрошивке.  
+  
+![](Jumpers/J9.jpg)  
+  
+JP4 замыкается в случае установки двух ПЗУ 2764.  
+  
+![](Jumpers/JP4.jpg)  
+  
+Перемычки JP5-JP9 запаиваются все.  
+Они нужны для будущих расширений памяти.  
+  
+![](Jumpers/JP6.jpg)  
+  
+Перемычки JP10 и JP11 запаиваются с левой стороны.  
+Они перепаиваются только для расширения до 256K на 41256 (РУ7).  
+  
+![](Jumpers/JP10.jpg)  
+  
+Джампер J12 необходим для выбора прошивки БДИ  
+в случае установки 27256 с двумя версиями TR-DOS.  
+  
+![](Jumpers/J12.jpg)  
+  
+Пин CAS1 необходим для расширения до 128K двумя линейками 4164 (РУ5).  
+  
+![](Jumpers/CAS1.jpg)  
+  
+## ПЗУ  
+  
+Выбор ПЗУ описан [тут](ROM).  
+  
+## VGA  
+  
+Настройка конвертера [тут](VGA).  
+  
+## Рекомендуемые аксессуары  
+  
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
 * [Memory Expansions and AY/TS](https://github.com/Alex-2-Graf/Leningrad2-Upgrade-Kit)
 * [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
 * [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
-
----
-
-## Credits & Acknowledgments
-
-*   **Alex Ekb** — for the amazing RGB2VGA converter design.
-*   The **Scorpion ZS & Leningrad** community, and all my friends who supported this project.
+   
+## Авторы и благодарности  
+  
+Alex Ekb — за RGB2VGA-конвертер.  
+Сообществу [Scorpion ZS & Ленинград](https://t.me/zs_scorpion) и моим друзьям.
