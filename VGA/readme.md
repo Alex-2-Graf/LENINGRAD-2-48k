@@ -1,6 +1,6 @@
 # Файл прошивки конвертера RGB-VGA/HDMI  
   
-> [English](VGA.md) | [Русский](readme.md)  
+> [English](vga.md) | [Русский](readme.md)  
   
 Прошивка [тут](RGB2_VGA_HDMI_v0.3.2_ZERO.UF2)  
   
