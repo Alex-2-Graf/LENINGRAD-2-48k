@@ -1,6 +1,6 @@
 # Video Configuration & RGB2VGA Setup
 
-> [English](VGA.md) | [Русский](readme.md)
+> [English](vga.md) | [Русский](readme.md)
 
 The Leningrad-2 2025 Revision features an integrated onboard **ZX_RGBI2VGA-HDMI** converter designed by AlexEkb. This converter uses a powerful Raspberry Pi **RP2040-Zero** board to upscale the vintage ZX Spectrum video signal to modern displays.
 
