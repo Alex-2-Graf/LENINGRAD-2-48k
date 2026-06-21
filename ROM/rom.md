@@ -1,8 +1,7 @@
-\# ROM Selection and Configuration Guide
+# ROM Selection and Configuration Guide
 
 
-
-> \[English](ROM.md) | \[Русский](ROM.ru.md)
+> [English](rom.md) | [Русский](readme.md)
 
 
 
@@ -10,7 +9,7 @@ The "Leningrad-2 2025 Revision" PCB provides flexible options for installing ROM
 
 
 
-\## Supported ROM Chips
+## Supported ROM Chips
 
 
 
