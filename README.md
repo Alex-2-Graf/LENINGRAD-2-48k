@@ -65,9 +65,17 @@
   
 ## Клавиатура
   
+Клавиатуру можно использовать от Авроры [Leningrad-2-128k-SRAM](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)  
+  
+![](Foto/L2-40Key-2.jpg)  
+  
 ---
   
-## Корпус
+## Корпус  
+  
+А корпус подойдёт от [PentoGraf-Pentagon-1024k](https://github.com/Alex-2-Graf/PentoGraf-Pentagon-1024k)  
+  
+![](Foto/19-finished.jpg)  
   
 ---
   
@@ -106,13 +114,19 @@ JP4 замыкается в случае установки двух ПЗУ 2764
   
 ![](Jumpers/CAS1.jpg)  
   
+---
+  
 ## ПЗУ  
   
 Выбор ПЗУ описан [тут](ROM).  
   
+---
+  
 ## VGA  
   
 Настройка конвертера [тут](VGA).  
+  
+---
   
 ## Рекомендуемые аксессуары  
   
@@ -121,6 +135,8 @@ JP4 замыкается в случае установки двух ПЗУ 2764
 * [Memory Expansions and AY/TS](https://github.com/Alex-2-Graf/Leningrad2-Upgrade-Kit)
 * [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
 * [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
+   
+---
    
 ## Авторы и благодарности  
   
